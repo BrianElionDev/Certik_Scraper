@@ -248,7 +248,7 @@ const main = async () => {
     // Control limit here:
     // await scraper.scrapeAndUpdateDatabase(5);    // Test with 5 coins
     // await scraper.scrapeAndUpdateDatabase();     // Process ALL coins needing Certik data
-    await scraper.scrapeAndUpdateDatabase(5); // Currently set to 5 for testing
+    await scraper.scrapeAndUpdateDatabase(); // Process ALL coins needing Certik data
   } catch (error) {
     console.error("❌ Scraper failed:", error.message);
   } finally {
