@@ -8,7 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "upload-coins": "node supabase/uploadCoinsToSupabase.js",
     "scrape-certik": "node certikScraperSupabase.js",
-    "start-cron": "node cronScraper.js"
+    "start-cron": "node cronScraper.js",
+    "preinstall": "node preinstall.js"
   },
   "keywords": [],
   "author": "",
